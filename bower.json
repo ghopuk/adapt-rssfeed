@@ -1,16 +1,17 @@
 {
-  "name": "adapt-rssfeed",
+  "name": "adapt-rss",
   "version": "0.0.1",
   "framework": "^2.0.0",
   "homepage": "https://github.com/ghopuk/adapt-rssfeed",
   "issues": "https://github.com/ghopuk/adapt-rssfeed/issues",
-  "displayName" : "RSS Feed",
-  "component" : "rssfeed",
-  "description": "RSS Feed",
-  "main": "/js/adapt-contrib-text.js",
+  "displayName" : "RSS",
+  "component" : "rss",
+  "description": "RSS",
+  "main": "/js/adapt-rss.js",
   "keywords": [
     "adapt-plugin",
     "adapt-component"
   ],
+  "private":"true"
   "license": "GPLv3"
 }
