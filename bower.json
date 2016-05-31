@@ -1,17 +1,17 @@
 {
-  "name": "adapt-rss",
-  "version": "0.0.1",
-  "framework": "^2.0.0",
+  "name": "adapt-rssfeed",
+  "version": "0.1.1",
   "homepage": "https://github.com/ghopuk/adapt-rssfeed",
-  "issues": "https://github.com/ghopuk/adapt-rssfeed/issues",
-  "displayName" : "RSS",
-  "component" : "rss",
-  "description": "RSS",
-  "main": "/js/adapt-rss.js",
+  "authors":[
+  "Paul Randle <prandle@coachwise.ltd.uk>"
+  ],
+  "displayName" : "rssfeed",
+  "component" : "rssfeed",
+  "description": "Text with RSS feed",
+  "main": "/js/adapt-rssfeed.js",
   "keywords": [
     "adapt-plugin",
     "adapt-component"
   ],
-  "private":"true"
   "license": "GPLv3"
 }

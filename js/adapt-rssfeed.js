@@ -2,8 +2,8 @@ define(function(require) {
 
     var ComponentView = require('coreViews/componentView');
     var Adapt = require('coreJS/adapt');
-
-    var RSS = ComponentView.extend({
+	var feedek = require('components/adapt-rssfeed/js/FeedEk');
+    var rssfeed = ComponentView.extend({
 
         preRender: function() {
             // Checks to see if the text should be reset on revisit
@@ -60,8 +60,8 @@ define(function(require) {
 
     });
 
-    Adapt.register('rss', RSS);
+    Adapt.register('rssfeed', rssfeed);
 
-    return RSS;
+    return rssfeed;
 
 });
